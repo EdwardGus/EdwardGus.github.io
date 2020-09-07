@@ -1,0 +1,27 @@
+@keyframes ball {
+    from {
+        transform: rotate(-3600deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.ball:hover {
+animation: ball  3s;
+
+}
+
+.ball{
+    width: 300px;
+    margin:200px 800px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    left: 0; right: 0;
+    margin: auto;
+    text-align: center;
+}
