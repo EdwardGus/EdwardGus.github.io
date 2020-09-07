@@ -1,27 +1,31 @@
 @keyframes ball {
     from {
-        transform: rotate(-3600deg);
+        transform: translate(150%, 150%) rotate(-720deg) scale(0.5);
     }
+    50% {
+        transform: translate(-500%, 50%) rotate(-1800deg) scale(1.5);
+    }    
     to {
-        transform: rotate(0deg);
+        transform:  translate(0%, 0%) rotate(0deg);
+
     }
 }
 
-.ball:hover {
-animation: ball  3s;
-
+.ball {
+    animation: ball 3s ease-in;
 }
 
-.ball{
-    width: 300px;
-    margin:200px 800px;
+.ball {
+     margin: 10% 50%;
 }
-.text{
-    position: absolute;
+
+.text {
+    position: fixed;
     top: 0;
-    background-color: black;
-    color: white;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     margin: auto;
     text-align: center;
+    background-color: black;
+    color: white;
 }

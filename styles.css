@@ -118,13 +118,12 @@ footer .copyright {
 		transform: rotate(720deg);
 		left: 800px;
 	}
-	50%
+	60%
 	{
 		transform: rotate(-360deg);
 		left: -90px;
 
 	}
-
 	to{
 		transform: rotate(0);
 		left: -90px;
